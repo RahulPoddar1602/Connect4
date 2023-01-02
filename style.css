@@ -1,0 +1,36 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.grid{
+    background-color: white;
+    border: 1px solid black;
+    height: 360px;
+    width: 422px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+}
+.h{
+    background-color: black;
+}
+.player-one{
+    background-color: red;
+    border-radius: 50%;
+}
+.player-two{
+    background-color: blue;
+    border-radius: 50%;
+}
